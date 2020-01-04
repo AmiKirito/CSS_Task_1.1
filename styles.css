@@ -11,7 +11,7 @@ body{
     width:1200px;
     height: 625px;
     margin:0 auto;
-    background-color: crimson;
+    background-color: rgba(241, 28, 28, 0.932);
     text-align: center;
 }
 .main{
@@ -110,9 +110,9 @@ body{
 }
 .hr{
     position: relative;
-    width: 50px;
-    top: 100px;
-    left: 575px;
+    width: 70px;
+    top: 104px;
+    left: 565px;
 }
 #line{
     border: none;
@@ -122,6 +122,8 @@ body{
 }
 .footer-text{
     position: relative;
+    color: white;
+    font-size: 15px;
     top:17px;
 }
 .pre-footer-content{
@@ -151,13 +153,13 @@ body{
 }
 .btn-icon.facebook:hover{
     transition: .3s;
-    border: 2px solid rgba(3, 85, 209, 0.753);
-    background-color: rgba(3, 85, 209, 0.753);
+    border: 2px solid #3578E5;
+    background-color: #3578E5;
 }
 .btn-icon.twitter:hover{
     transition: .3s;
-    border: 2px solid rgb(0, 204, 255);
-    background-color: rgb(0, 204, 255);
+    border: 2px solid rgba(29,161,242,1.00);
+    background-color: rgba(29,161,242,1.00);
 }
 .btn-icon.google:hover{
     transition: .3s;
@@ -166,8 +168,8 @@ body{
 }
 .btn-icon.linkedin:hover{
     transition: .3s;
-    border: 2px solid blue;
-    background-color: blue;
+    border: 2px solid #0073b1;
+    background-color: #0073b1;
 }
 .btn-img-icon{
     position: relative;
@@ -198,6 +200,12 @@ body{
     height: 40px;
     background-color: rgb(43, 41, 41);
     border:2px solid rgb(80, 80, 80);
+    border-radius: 4px;
+}
+.pre-footer-subscribe:hover{
+    transition: .3s;
+    background-color: #0073b1;
+    border:2px solid #0073b1;
 }
 .btn-subscribe{
     position: relative;
