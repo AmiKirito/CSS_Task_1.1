@@ -9,9 +9,10 @@ body{
 }
 .header{
     width:1200px;
-    height: 700px;
+    height: 625px;
     margin:0 auto;
     background-color: crimson;
+    text-align: center;
 }
 .main{
     width:1200px;
@@ -40,7 +41,7 @@ body{
     margin: 0;
     width: 800px;
     height: 165px;
-    top: 260px;
+    top: 140px;
     left: 210px;
 }
 .image{
@@ -87,4 +88,34 @@ body{
 .wrapper{
     position: relative;
     top: 20%;
+}
+.header-title{
+    position: relative;
+    margin: 0;
+}
+.header-title-main{
+    position: relative;
+    font-size: 30px;
+    color:white;
+    margin: 0;
+    top: 100px;
+}
+.header-title-sub{
+    position: relative;
+    top: 100px;
+    font-size: 19px;
+    color:white;
+    margin: 0;
+}
+.hr{
+    position: relative;
+    width: 50px;
+    top: 100px;
+    left: 575px;
+}
+#line{
+    border: none;
+    background-color: white;
+    color:white;
+    height: 4px;
 }
