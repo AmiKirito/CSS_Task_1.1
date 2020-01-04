@@ -1,0 +1,26 @@
+body{
+    min-width: 1000px; 
+    min-height: 1500px;
+    margin: 0;
+}
+.setup{
+    min-width: 1000px;
+    min-height: 1000px;
+    position: relative;
+}
+.header{
+    background-color: crimson;
+}
+.main{
+    background-color: rgb(51, 151, 250);
+}
+.pre-footer{
+    min-width: 1000px;
+    min-height: 400px;
+    background-color: rgb(43, 41, 41);
+}
+.footer{
+    min-width: 1000px;
+    min-height: 50px;
+    background-color: gray;
+}
