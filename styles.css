@@ -1,3 +1,8 @@
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
 body{
     width: 100%;
     height: 100%;
@@ -8,42 +13,46 @@ body{
     margin:0 auto;
 }
 .header{
-    width:1200px;
-    height: 625px;
+    width:1000px;
+    height: 700px;
     margin:0 auto;
-    background-color: rgba(241, 28, 28, 0.932);
+    background-color: rgb(222, 43, 36);
     text-align: center;
 }
+.header-content{
+    position: relative;
+    top: -30px;
+}
 .main{
-    width:1200px;
-    height: 625px;
+    width:1000px;
+    height: 650px;
     margin:0 auto;
-    background-color: rgb(51, 151, 250);
+    background-color: rgb(18, 134, 191);
     position: relative;
 }
 .pre-footer{
-    width:1200px;
+    width:1000px;
     height: 425px;
     margin:0 auto;
     position: relative;
-    background-color: rgb(43, 41, 41);
+    background-color: rgb(42, 42, 42);
 }
 .footer{
-    width:1200px;
+    width:1000px;
     height: 50px;
     margin:0 auto;
     position: relative;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(81, 81, 81);
     text-align: center;
 }
 .images{
     font-size: 0;
     position: relative;
     margin: 0;
-    width: 800px;
-    height: 165px;
+    width: 825px;
+    height: 206.25px;
     top: 140px;
-    left: 210px;
+    left: 10%;
 }
 .image{
     text-align: center;
@@ -53,9 +62,15 @@ body{
     vertical-align: bottom;
     width: 25%;
     height: 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     opacity: 90%;
+    overflow: hidden;
+}
+.image-content{
+    position: relative;
+    width: 206.25px;
+    height: 206.25px;
+    object-fit: cover;
+    object-position: center;
 }
 .image-png{
     text-align: center;
@@ -65,25 +80,31 @@ body{
     vertical-align: bottom;
     width: 25%;
     height: 100%;
-    background-color: rgb(233, 78, 78);
+    background-color: rgb(243, 94, 88);
     background-repeat: no-repeat;
 }
 .image-icon{
     position: relative;
-
+}
+.png{
+    margin-top: 25px;
+    width:25px;
+    height:25px;
 }
 .title-project{
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
     color:white;
-    padding-top: 5px;
+    padding-top: 10px;
     margin: 0;
 }
 .title-desc{
     position: relative;
+    font-weight: bold;
     font-size: 12px;
     color:white;
-    padding-top: 5px;
+    padding-top: 0px;
     margin: 0;
 }
 .wrapper{
@@ -112,7 +133,7 @@ body{
     position: relative;
     width: 70px;
     top: 104px;
-    left: 565px;
+    left: 465px;
 }
 #line{
     border: none;
@@ -144,7 +165,7 @@ body{
     width: 50px;
     height: 50px;
     margin: 10px;
-    border: 2px solid rgb(80, 80, 80);
+    border: 2px solid rgb(81, 81, 81);
     border-radius: 4px;;
 }
 .twit{
@@ -182,24 +203,24 @@ body{
 }
 .input-text{
     position: relative;
+    padding-left: 20px;
     top: 130px;
-    width: 650px;
-    height: 50px;
-    background-color: rgb(80, 80, 80);
+    width: 550px;
+    height: 40px;
+    background-color: rgb(81, 81, 81);
     border: none;
 }
 .input-text::-webkit-input-placeholder{
-    padding-left: 20px;
     color: rgb(201, 199, 199);
 }
 .pre-footer-subscribe{ 
     position: relative;
     top: 150px;
-    left: 520px;
+    left: 420px;
     width: 150px;
     height: 40px;
-    background-color: rgb(43, 41, 41);
-    border:2px solid rgb(80, 80, 80);
+    background-color: rgb(42, 42, 42);
+    border:2px solid rgb(81, 81, 81);
     border-radius: 4px;
 }
 .pre-footer-subscribe:hover{
@@ -213,4 +234,111 @@ body{
     color: white;
     font-size: 17px;
     top: 10px;
+}
+.main-content{
+    position: relative;
+    text-align: center;
+}
+.main-okay-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    text-align: center;
+    top: 60px;
+    left: 47%;
+}   
+.arrow{
+    position: relative;
+    left: 10px;
+    top: 17px;
+}
+.main-fill-form{
+    position: relative;
+    text-align: center;
+    top: -30px;
+}
+.form-arrow{
+    position: relative;
+    top: 110px;
+    left: 118px;
+}
+.form-content{
+    position: relative;
+    width: 550px;
+    height: 365px;
+    background-color: white;
+    border-radius: 2px;
+    top: -20px;
+    left: 220px;
+}
+.form-cross{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1.5px solid white;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    top: -400px;
+    left: 752px;
+}
+.cross{
+    position: relative;
+    left: 11px;
+    top: 8.5px;
+}
+.form-content-desc{
+    position: relative;
+    padding: 25px;
+    font-size: 14px;
+    top: 15px;
+    color: rgb(130, 130, 130)
+}
+.form-content-inputs{
+    position: relative;
+    text-align: center;
+}
+.content-input{
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+.content-input-inside{
+    position: relative;
+    width: 350px;
+    padding: 14px;
+    margin: 3px;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 4px;
+}
+.content-input-inside::-webkit-input-placeholder{
+    color: rgb(163, 163, 163);
+}
+.btn-submitnow{
+    position: relative;
+    text-align: center;
+    width: 120px;
+    padding: 12px;
+    background-color: rgb(222, 43, 36);
+    color: white;
+    border-radius: 3.5px;
+    top: 45px;
+    left: 200px;
+}
+.main-title{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 32px;
+}
+.main-desc{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-weight: lighter;
+    color: white
 }
