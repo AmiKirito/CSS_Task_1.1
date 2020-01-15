@@ -4,6 +4,7 @@ html{
     margin: 0;
 }
 body{
+    font-family: "HelveNeue", Arial, Helvetica;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -62,9 +63,23 @@ body{
     vertical-align: bottom;
     width: 25%;
     height: 100%;
-    opacity: 90%;
     overflow: hidden;
 }
+.zoom {
+    transition: transform 1s;
+}
+.zoom:hover {
+    z-index: 2;   
+    transform: rotate3d(0, 1, 0, 180deg );
+}
+.zoom2 {
+    transition: transform 1s;
+}
+.zoom2:hover {
+    z-index: 2;   
+    transform: rotate(360deg);
+}
+
 .image-content{
     position: relative;
     width: 206.25px;
@@ -154,7 +169,8 @@ body{
 .pre-footer-title{
     position: relative;
     top: 80px;
-    font-size: 40px;
+    font-size: 25px;
+    font-weight: bold;
     color: white;
 }
 .btn-icon{
@@ -164,7 +180,7 @@ body{
     top: 90px;
     width: 50px;
     height: 50px;
-    margin: 10px;
+    margin: 5px;
     border: 2px solid rgb(81, 81, 81);
     border-radius: 4px;;
 }
@@ -199,6 +215,7 @@ body{
 .pre-footer-caption{
     position: relative;
     top:100px;
+    font-size: 13px;
     color: rgb(201, 199, 199);
 }
 .input-text{
@@ -281,10 +298,22 @@ body{
     background-color: red;
     border-radius: 50%;
     text-align: center;
-    top: -400px;
+    top: -404px;
     left: 752px;
 }
+.form-cross:hover .theline{
+    transition: .3s;
+    stroke: red;
+}
+.form-cross:hover{
+    transition: .3s;
+    border: 1.5px solid red;
+    background-color: white;
+    transform: scale(1.5);
+}
 .cross{
+    width: 20px;
+    height: 20px;
     position: relative;
     left: 11px;
     top: 8.5px;
@@ -292,7 +321,7 @@ body{
 .form-content-desc{
     position: relative;
     padding: 25px;
-    font-size: 14px;
+    font-size: 13px;
     top: 15px;
     color: rgb(130, 130, 130)
 }
@@ -326,6 +355,11 @@ body{
     border-radius: 3.5px;
     top: 45px;
     left: 200px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-submitnow:hover{
+    background-color: seagreen;
 }
 .main-title{
     position: relative;
